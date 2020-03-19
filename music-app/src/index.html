@@ -1,0 +1,188 @@
+<main class="container">
+  <div class="head">
+    <nav>
+      <div class="navWrapper">
+        <a href="" id="logo">Music App</a>
+        <div class="right">
+          <label for="" class="search"><input type="search" placeholder="Search"></label>
+
+          <div id="nav-icon" id="menuIcon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="overlay">
+            <div class="overlayContent">
+              <a href="#" id="services">Services</a>
+              <a href="#" id="work">work</a>
+              <a href="#" id="contact">Contact</a>
+              <p>Copyright 2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <page-home>
+
+    <div class="col-md-12 po">
+      <div class="section-banner">
+
+        <p class="section-banner-title">Music <br> For <br> Everyone</p>
+
+      </div>
+    </div>
+
+  </page-home>
+  <style>
+    .post__card-2 {
+      padding-right: .8rem;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      max-width: 277.5px;
+      width: 100%;
+      float: left;
+    }
+
+    .post__card_-2 {
+      overflow: hidden;
+      border-radius: 0rem;
+      background-color: #fff;
+    }
+
+    .post__card__image-2 {
+      height: 11rem;
+      border-radius: 10px;
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 10px 10px -5px rgba(0, 0, 0, .04);
+    }
+
+    .post__card_meta-2 {
+      padding: 0.5em;
+    }
+
+    .post__card_title-2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    .post__card_alttitle-2 {
+      color: #4a5568;
+      margin: 0;
+      line-height: 1.5;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      font-size: 1.125rem
+    }
+  </style>
+
+  <div class="col-md-6 mt-3 fl po">
+
+    <div class="post__card-2">
+      <div class="post__card_-2">
+        <div class="post__card__image-2" style="background-image: url(https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/17/b3/ca/17b3ca0c-5e6d-de0a-5168-db804970857f/859721917599_cover.jpg/313x0w.jpg)">
+        </div>
+        <div>
+          <div class="post__card_meta-2">
+            <p class="post__card_title-2">Friendzone</p>
+            <p class="post__card_alttitle-2">27CLUB</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="post__card-2">
+      <div class="post__card_-2">
+        <div class="post__card__image-2" style="background-image: url(https://is2-ssl.mzstatic.com/image/thumb/Music128/v4/30/7e/6f/307e6fd6-48e3-8b5a-f327-6dcc0e57abeb/00602547360335.rgb.jpg/626x0w.jpg)">
+        </div>
+        <div>
+          <div class="post__card_meta-2">
+            <p class="post__card_title-2">BADLANDS</p>
+            <p class="post__card_alttitle-2">Halsey</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="post__card-2">
+      <div class="post__card_-2">
+        <div class="post__card__image-2" style="background-image: url(https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/a5/b5/95/a5b59574-ccfa-e062-7981-f9cf75350a38/4251625982264_3000.jpg/626x0w.jpg)">
+        </div>
+        <div>
+          <div class="post__card_meta-2">
+            <p class="post__card_title-2">Amniotic</p>
+            <p class="post__card_alttitle-2">Monolink</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="post__card-2">
+      <div class="post__card_-2">
+        <div class="post__card__image-2" style="background-image: url(https://is4-ssl.mzstatic.com/image/thumb/Music71/v4/fb/01/92/fb019253-3833-6c2b-f878-44932cf7d429/cover.jpg/626x0w.jpg)">
+        </div>
+        <div>
+          <div class="post__card_meta-2">
+            <p class="post__card_title-2">Sarı Çizmeli Mehmet Ağa
+            </p>
+            <p class="post__card_alttitle-2">Barış Manço</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 mt-3 fl po">
+
+    <ul id="musiclist"></ul>
+
+  </div>
+
+  <br><br><br><br>
+
+</main>
+
+<div class="music">
+  <div class="container">
+    <div id="abl" class="album">
+      <div class="circle"></div>
+      <img class="cover" />
+      <img class="shadow"></img>
+    </div>
+    <div class="musicname"></div>
+    <div class="artist"></div>
+
+    <div class="controll-panel">
+      <div class="center">
+        <span class="prev-btn controll-btn">
+          <i class="fas fa-step-backward"></i>
+        </span>
+      </div>
+      <div class="center">
+        <span class="play-btn controll-btn">
+          <i class="far fa-play-circle"></i>
+        </span>
+        <span class="pause-btn controll-btn hidden">
+          <i class="far fa-pause-circle"></i>
+        </span>
+      </div>
+      <div class="center">
+        <span class="next-btn controll-btn">
+          <i class="fas fa-step-forward"></i>
+        </span>
+      </div>
+    </div>
+    <div class="progress-panel">
+      <progress id="progress-bar" value="0" max="100"></progress>
+      <div class="time">
+        <label id="start-time">00:00</label>
+        <label>/</label>
+        <label id="end-time">00:00</label>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"> <audio id="music">
+</audio>
